@@ -1,5 +1,5 @@
 body{
-    background: #352f5b;
+    background:#163240;
   }
   .container{
     max-width: 400px;
@@ -12,13 +12,20 @@ body{
     max-width: 400px;
   }
   .todos li{
-    background: #423a6f;
+    background: #1F4B59;
   }
   .delete , .done{
     cursor: pointer;
-    color: #A993BF;
+    color: #FFEECC;
   }
   
   .read {
       text-decoration: line-through;
+  }
+  .badge-pill {
+      background-color: #D94E41;
+      border: none;
+      color: #fff;
+      padding: 10px ;
+      font-weight: normal;
   }

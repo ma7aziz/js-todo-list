@@ -1,7 +1,7 @@
 const addForm = document.querySelector('.add')
 const list = document.querySelector('ul')
 const search = document.querySelector('.search input')
-const clearAll = document.querySelector('.btn-danger')
+const clearAll = document.querySelector('.badge-pill')
 const done = document.querySelector('.done')
 //functions
 const generateTemplate = (newTodo) => {
